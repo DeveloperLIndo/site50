@@ -1,0 +1,32 @@
+.menu {
+  /* adicione o código correto para colocar o menu corretamente.*/
+  display:flex;
+  justify-content:space-between;
+  background-color: black;
+  font-size: 30px;
+  font-family: cursive;
+  font-weight: 400;
+  color: white;
+}
+body {
+  background-color: whitesmoke;
+}
+.grid {
+  /* adicione o código correto para colocar os elementos da grade
+  um ao lado do outro igualmente.   */
+  display:flex;
+  flex-wrap: wrap;
+  font-family: cursive;
+}
+
+.grid img {
+  border: 2px solid rgb(117, 12, 12);
+  border-radius: 50px;
+}
+.languages {
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+
+  width: 310px;
+  font-family: cursive;
+}
